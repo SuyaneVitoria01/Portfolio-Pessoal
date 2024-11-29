@@ -1,0 +1,163 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;  /* Fonte mais moderna */
+    background-color: #f4f7fc;  /* Fundo suave */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;  /* Cor de fundo mais suave e agradável */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;  /* Alinha os itens na mesma linha */
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;  /* Bordas arredondadas para os links */
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* Animações de hover */
+}
+
+
+
+/* Estilo para o conteúdo principal */
+h1 {
+    background-color: white;
+    border-radius: 8px;  /* Bordas arredondadas */
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: #040404cf;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color: #040404cf;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+logo-image {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+logo-image2{
+    text-align: center;
+    display: block;
+}
+
+
+/* Formulário de Contato */
+form {
+    display: grid;
+    grid-gap: 20px;  /* Espaçamento entre os campos */
+}
+
+form input, form textarea {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;  /* Bordas arredondadas */
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;  /* Animação para o foco */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50;  /* Cor de foco */
+    outline: none;
+}
+
+/* Botão de envio */
+form button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);  /* Efeito de levitação */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+/* Estilos para links no portfólio */
+.A {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.B {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.C {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.D {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
